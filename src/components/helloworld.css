@@ -1,0 +1,9 @@
+.clickButton {
+    background: blanchedalmond;
+}
+
+
+.container{
+    display: grid;
+    justify-content: center;
+}
