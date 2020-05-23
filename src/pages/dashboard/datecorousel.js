@@ -11,12 +11,12 @@ const DateCorousel = (props) => {
   return (
     <div className="corouselContainer">
       <div className="datecorousel">
-      <FontAwesomeIcon onClick={()=> props.handleIndexChange("minus", props.indexNo -1)} className="fa-lg" icon={faChevronCircleLeft} />
+      <FontAwesomeIcon onClick={()=> props.handleIndexChange("minus", props.indexNo -1)} className="fa-lg pointers" icon={faChevronCircleLeft} />
       <div className="dateAndMonth">
           <strong>{date}</strong>
           <strong style={{margin: 'auto'}}>{time}</strong>
       </div>
-      <FontAwesomeIcon onClick={()=> props.handleIndexChange("plus", props.indexNo + 1)} className="fa-lg" icon={faChevronCircleRight} />
+      <FontAwesomeIcon onClick={()=> props.handleIndexChange("plus", props.indexNo + 1)} className="fa-lg pointers" icon={faChevronCircleRight} />
       </div>
     </div>
   );

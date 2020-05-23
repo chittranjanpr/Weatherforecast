@@ -8,6 +8,10 @@
     z-index: 10;
 }
 
+.card{
+    cursor: pointer;
+}
+
 .sideNavContainer::-webkit-scrollbar {
     display: none;
 }
