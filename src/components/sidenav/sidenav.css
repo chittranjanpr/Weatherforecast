@@ -1,0 +1,49 @@
+.sideNavContainer {
+    float: right;
+    width: 259px;
+    height: 100vh;
+    background-color: #343a40;
+    position: sticky;
+    overflow-y: scroll;
+    z-index: 10;
+}
+
+.sideNavContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.dropDown {
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.dropDown::-webkit-scrollbar{
+    display: none;
+}
+
+.inputContainer {
+    z-index: 10;
+}
+
+@media only screen and (max-width: 421px) {
+    .sideNavContainer {
+        float: right;
+        width: 82%;
+        height: 100vh;
+        background-color: #343a40;
+        position: fixed;
+        z-index: 10;
+    }
+    .dropDown {
+        position: absolute;
+        top: 56px;
+        width: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/helloworld.jsx';
+import Dashboard from './pages/dashboard/index.js';
 
 const App = () =>(
     <div>
-        <HelloWorld />
+        <Dashboard />
     </div>
 )
 

@@ -10,6 +10,7 @@ module.exports = {
     },
     module: {
         rules: [{
+            type: 'javascript/auto',
             exclude: /node_modules/,
             test: /\.(js|jsx)$/,
             loader: 'babel-loader',
@@ -20,7 +21,7 @@ module.exports = {
         {
             test: /\.css$/,
             use:['style-loader','css-loader']
-        }
+        },
         ]
     },
     plugins: [
